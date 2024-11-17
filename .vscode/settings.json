@@ -1,0 +1,18 @@
+{
+  // Set Prettier as the default formatter
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Format on save
+  "editor.formatOnSave": true,
+  "prettier.semi": false,
+  "prettier.htmlWhitespaceSensitivity": "ignore",
+
+  // Prettier specific configurations
+  "prettier.printWidth": 80, // Maximum line length
+  "prettier.tabWidth": 2, // Number of spaces per tab
+  "prettier.useTabs": false, // Use spaces instead of tabs
+  "prettier.singleQuote": true, // Use single quotes instead of double
+  "prettier.trailingComma": "es5", // Trailing commas where valid in ES5 (objects, arrays)
+  "prettier.bracketSpacing": true, // Print spaces between brackets
+  "prettier.arrowParens": "always" // Include parentheses around a sole arrow function parameter
+}
